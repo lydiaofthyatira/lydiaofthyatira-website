@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lydia of Thyatira - Biblical Entrepreneur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .luxury-bg {
+            background: radial-gradient(ellipse at top, #1a1a2e 0%, #16213e 50%, #0f172a 100%);
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #d4af37 0%, #f4e4bc 50%, #d4af37 100%);
+        }
+        .purple-luxury {
+            background: linear-gradient(135deg, #4c1d95 0%, #6b21a8 50%, #581c87 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .social-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .social-hover:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .shimmer {
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            background-size: 200% 100%;
+            animation: shimmer 3s infinite;
+        }
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        .ornament {
+            position: relative;
+        }
+        .ornament::before {
+            content: '✦';
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #d4af37;
+            font-size: 12px;
+        }
+        .ornament::after {
+            content: '✦';
+            position: absolute;
+            right: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #d4af37;
+            font-size: 12px;
+        }
+        .parallax-scroll {
+            transform: translateY(0);
+            transition: transform 0.1s ease-out;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
+    </style>
+</head>
+<body class="luxury-bg min-h-full">
+    <!-- Decorative Elements -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-20 left-10 w-2 h-2 bg-yellow-400 rounded-full opacity-60 floating-animation"></div>
+        <div class="absolute top-40 right-20 w-1 h-1 bg-purple-300 rounded-full opacity-40 floating-animation" style="animation-delay: 2s;"></div>
+        <div class="absolute bottom-32 left-20 w-1.5 h-1.5 bg-yellow-300 rounded-full opacity-50 floating-animation" style="animation-delay: 4s;"></div>
+    </div>
+
+    <div class="min-h-full flex items-center justify-center p-6">
+        <div class="max-w-lg w-full">
+            <!-- Main Card -->
+            <div class="glass-effect rounded-3xl shadow-2xl overflow-hidden border border-white/20">
+                <!-- Header Section -->
+                <div class="purple-luxury p-10 text-center text-white relative overflow-hidden">
+                    <div class="absolute inset-0 shimmer opacity-20"></div>
+                    <div class="relative z-10">
+                        <!-- AI Generated Portrait -->
+                        <div class="w-40 h-40 mx-auto mb-6 relative">
+                            <div class="w-full h-full gold-gradient rounded-full p-1">
+                                <img src="https://s15-kling.klingai.com/kimg/EMXN1y8qeQoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpfc2UvYWlfcG9ydGFsX3NncF9tbXVfaW1nMmltZ19haXdlYl92MTVfY2hhcmFjdGVyL2QxMzUxOTUxLWVhNmItNDU1Mi05MDMxLWU1YjFmZmE5YmVjZl9pbWFnZS5wbmc.origin?x-kcdn-pid=112372" 
+                                     alt="Lydia of Thyatira - Professional portrait in vibrant purple business suit" 
+                                     class="w-full h-full rounded-full object-cover border-4 border-white/20"
+                                     onerror="this.src=''; this.alt='Portrait of Lydia - Image failed to load'; this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                                    >
+                                <div class="w-full h-full bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hidden">
+                                    <span class="text-5xl">👸🏻</span>
+                                </div>
+                            </div>
+                            <div class="absolute -top-2 -right-2 w-10 h-10 gold-gradient rounded-full flex items-center justify-center shadow-lg">
+                                <span class="text-purple-900 text-lg">✨</span>
+                            </div>
+                            <div class="absolute -bottom-2 -left-2 w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center shadow-lg">
+                                <span class="text-white text-sm">💜</span>
+                            </div>
+                        </div>
+                        
+                        <h1 class="serif-font text-3xl font-bold mb-3 ornament">Lydia of Thyatira</h1>
+                        <div class="w-24 h-px bg-gradient-to-r from-transparent via-yellow-400 to-transparent mx-auto mb-3"></div>
+                        <p class="text-purple-100 text-base font-light tracking-wide">Biblical Entrepreneur & First European Convert</p>
+                        <p class="text-purple-200/80 text-sm mt-2 italic">Dealer in Royal Purple • Acts 16:14</p>
+                    </div>
+                </div>
+
+                <!-- Bio Section -->
+                <div class="p-10 bg-gradient-to-b from-white to-gray-50">
+                    <div class="mb-8">
+                        <h2 class="serif-font text-2xl font-semibold text-gray-800 mb-6 text-center">About Me</h2>
+                        <div class="prose prose-lg max-w-none">
+                            <p class="text-gray-700 leading-relaxed mb-6 text-center font-light">
+                                My Name is Lydia, and I was born in Thyatira, a Roman province in Asia. I am a successful merchant renowned for trading in luxurious 
+                                purple fabrics, the prized dye of royalty and the elite. I am the author of True Worshipper of God, Leadership in Women, and The Business 
+                                Ideas in You. I was privildged to become the first European convert to Christianity, a turning point that deeply shaped my life and purpose.
+                            </p>
+                            <p class="text-gray-600 text-sm leading-relaxed text-center italic mb-6">
+                                "As a faith leader, I was honored to serve in several leadership capacities and to open my home as a sanctuary for believers--a place of 
+                                fellowship, prayer, and encouragement."
+                            </p>
+                        </div>
+                        
+                        <!-- Elegant Tags -->
+                        <div class="flex flex-wrap justify-center gap-3 mb-8">
+                            <span class="bg-gradient-to-r from-purple-100 to-purple-50 text-purple-800 px-4 py-2 rounded-full text-sm font-medium border border-purple-200">✨ Entrepreneur</span>
+                            <span class="bg-gradient-to-r from-yellow-100 to-yellow-50 text-yellow-800 px-4 py-2 rounded-full text-sm font-medium border border-yellow-200">🏛️ Hospitality</span>
+                            <span class="bg-gradient-to-r from-blue-100 to-blue-50 text-blue-800 px-4 py-2 rounded-full text-sm font-medium border border-blue-200">👑 Faith Leader</span>
+                        </div>
+                    </div>
+
+                    <!-- Luxury Stats -->
+                    <div class="grid grid-cols-3 gap-6 mb-10">
+                        <div class="text-center group">
+                            <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 border border-purple-200/50 group-hover:shadow-lg transition-all duration-300">
+                                <div class="serif-font text-2xl font-bold text-purple-700 mb-1">50 AD</div>
+                                <div class="text-sm text-purple-600 font-medium">Conversion</div>
+                                <div class="text-xs text-purple-500 mt-1">Riverside Baptism</div>
+                            </div>
+                        </div>
+                        <div class="text-center group">
+                            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border border-blue-200/50 group-hover:shadow-lg transition-all duration-300">
+                                <div class="serif-font text-2xl font-bold text-blue-700 mb-1">Philippi</div>
+                                <div class="text-sm text-blue-600 font-medium">Ministry Base</div>
+                                <div class="text-xs text-blue-500 mt-1">Macedonia</div>
+                            </div>
+                        </div>
+                        <div class="text-center group">
+                            <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-6 border border-yellow-200/50 group-hover:shadow-lg transition-all duration-300">
+                                <div class="serif-font text-2xl font-bold text-yellow-700 mb-1">Purple</div>
+                                <div class="text-sm text-yellow-600 font-medium">Royal Cloth</div>
+                                <div class="text-xs text-yellow-500 mt-1">Luxury Trade</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Elegant Quote -->
+                    <div class="relative mb-10">
+                        <div class="bg-gradient-to-r from-purple-50 via-white to-purple-50 rounded-2xl p-8 border-l-4 border-yellow-400 shadow-sm">
+                            <div class="absolute -top-3 left-6 bg-white px-3">
+                                <span class="text-yellow-500 text-2xl">"</span>
+                            </div>
+                            <p class="serif-font text-purple-800 text-lg italic leading-relaxed text-center mb-3">
+                                The Lord opened her heart to respond to Paul's message.
+                            </p>
+                            <div class="text-center">
+                                <p class="text-purple-600 text-sm font-medium">— Acts 16:14 —</p>
+                                <div class="w-16 h-px bg-gradient-to-r from-transparent via-purple-300 to-transparent mx-auto mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxury Social Links -->
+                <div class="bg-white p-10 rounded-t-3xl">
+                    <div class="text-center mb-8">
+                        <h3 class="serif-font text-2xl font-semibold text-gray-800 mb-2">Connect With Me</h3>
+                        <div class="w-20 h-px bg-gradient-to-r from-transparent via-yellow-400 to-transparent mx-auto"></div>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <a href="https://www.bible.com/bible/111/ACT.16.NIV" target="_blank" rel="noopener noreferrer" 
+                           class="social-hover group flex items-center p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100 hover:border-blue-200">
+                            <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
+                                <span class="text-white text-2xl">📜</span>
+                            </div>
+                            <div class="flex-1">
+                                <div class="font-semibold text-gray-800 text-lg">My Story in Acts</div>
+                                <div class="text-sm text-gray-600 font-light">Read about my riverside conversion</div>
+                            </div>
+                            <div class="text-blue-400 group-hover:text-blue-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="https://www.instagram.com/purpledbylydia?igsh=MXV6MWtmaHdyOXdkNw==" target="_blank" rel="noopener noreferrer"
+                           class="social-hover group flex items-center p-6 bg-gradient-to-r from-pink-50 to-rose-50 rounded-2xl border border-pink-100 hover:border-pink-200">
+                            <div class="w-14 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
+                                <span class="text-white text-2xl">📸</span>
+                            </div>
+                            <div class="flex-1">
+                                <div class="font-semibold text-gray-800 text-lg">Instagram</div>
+                                <div class="text-sm text-gray-600 font-light">Biblical inspiration & purple artistry</div>
+                            </div>
+                            <div class="text-pink-400 group-hover:text-pink-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="https://www.threads.com/@purpledbylydia" target="_blank" rel="noopener noreferrer"
+                           class="social-hover group flex items-center p-6 bg-gradient-to-r from-slate-50 to-gray-50 rounded-2xl border border-slate-100 hover:border-slate-200">
+                            <div class="w-14 h-14 bg-gradient-to-br from-slate-600 to-gray-700 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
+                                <span class="text-white text-2xl">🧵</span>
+                            </div>
+                            <div class="flex-1">
+                                <div class="font-semibold text-gray-800 text-lg">Threads</div>
+                                <div class="text-sm text-gray-600 font-light">Thoughts on faith & entrepreneurship</div>
+                            </div>
+                            <div class="text-slate-400 group-hover:text-slate-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </a>
+
+                        <a href="https://www.youtube.com/channel/UCKG8dI48zPNt3SfqbjEMT4g" target="_blank" rel="noopener noreferrer"
+                           class="social-hover group flex items-center p-6 bg-gradient-to-r from-red-50 to-rose-50 rounded-2xl border border-red-100 hover:border-red-200">
+                            <div class="w-14 h-14 bg-gradient-to-br from-red-600 to-red-700 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
+                                <span class="text-white text-2xl">📺</span>
+                            </div>
+                            <div class="flex-1">
+                                <div class="font-semibold text-gray-800 text-lg">YouTube</div>
+                                <div class="text-sm text-gray-600 font-light">Biblical teachings & ministry videos</div>
+                            </div>
+                            <div class="text-red-400 group-hover:text-red-600 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Interactive Image Gallery Section -->
+                    <div class="mt-12 mb-8">
+                        <div class="text-center mb-8">
+                            <h3 class="serif-font text-2xl font-semibold text-gray-800 mb-2">My Biblical Journey</h3>
+                            <div class="w-20 h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent mx-auto mb-4"></div>
+                            <p class="text-gray-600 text-sm">Browse through moments from my life in Macedonia</p>
+                        </div>
+                        
+                        <!-- Main Gallery Display -->
+                        <div class="relative mb-6">
+                            <div class="relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-100">
+                                <!-- Main Image Container -->
+                                <div id="galleryMainImage" class="relative h-80 overflow-hidden">
+                                    <img id="currentImage" 
+                                         src="https://s15-kling.klingai.com/kimg/EMXN1y8qcgoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpYc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjFfMmsvZjFhOTk5OGEtY2U1MS00OTA1LTg5ZTUtZTdiZDI4NzdiN2RlX2ltYWdlLnBuZw.origin?x-kcdn-pid=112372" 
+                                         alt="Riverside baptism scene in ancient Philippi" 
+                                         class="w-full h-full object-cover transition-all duration-500"
+                                         onerror="this.className='w-full h-full bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center transition-all duration-500'; this.innerHTML='<span class=\'text-6xl\'>🌊</span>'; this.onerror=null;">
+                                    
+                                    <!-- Image Overlay -->
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                                    
+                                    <!-- Image Caption -->
+                                    <div class="absolute bottom-6 left-6 right-6 text-white">
+                                        <h4 id="imageTitle" class="font-bold text-xl mb-2">Riverside Conversion</h4>
+                                        <p id="imageDescription" class="text-sm opacity-90 leading-relaxed">The sacred moment by the river in Philippi where the Lord opened my heart to Paul's message, marking the beginning of Christianity in Europe.</p>
+                                    </div>
+                                    
+                                    <!-- Navigation Arrows -->
+                                    <button onclick="previousImage()" class="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-all duration-300 group">
+                                        <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                    
+                                    <button onclick="nextImage()" class="absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-all duration-300 group">
+                                        <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                    
+                                    <!-- Image Counter -->
+                                    <div class="absolute top-4 right-4 bg-black/50 backdrop-blur-sm rounded-full px-3 py-1 text-white text-sm">
+                                        <span id="imageCounter">1 / 6</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Thumbnail Navigation -->
+                        <div class="flex justify-center space-x-3 mb-8 overflow-x-auto pb-2">
+                            <button onclick="showImage(0)" class="thumbnail-btn flex-shrink-0 w-20 h-16 rounded-xl overflow-hidden border-3 border-purple-400 shadow-lg transition-all duration-300 hover:scale-105 active">
+                                <img src="https://s15-kling.klingai.com/kimg/EMXN1y8qcgoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpYc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjFfMmsvZjFhOTk5OGEtY2U1MS00OTA1LTg5ZTUtZTdiZDI4NzdiN2RlX2ltYWdlLnBuZw.origin?x-kcdn-pid=112372" 
+                                     alt="Riverside conversion thumbnail" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.className='w-full h-full bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center text-xs'; this.innerHTML='🌊'; this.onerror=null;">
+                            </button>
+                            
+                            <button onclick="showImage(1)" class="thumbnail-btn flex-shrink-0 w-20 h-16 rounded-xl overflow-hidden border-3 border-gray-300 shadow-lg transition-all duration-300 hover:scale-105">
+                                <img src="https://s15-kling.klingai.com/kimg/EMXN1y8qeQoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpfc2UvYWlfcG9ydGFsX3NncF9tbXVfaW1nMmltZ19haXdlYl92MTVfY2hhcmFjdGVyLzA5MDYzZWVkLTU1YjQtNDNkOS1iNTViLThlMWE1Njc3MGUxM19pbWFnZS5wbmc.origin?x-kcdn-pid=112372" 
+                                     alt="Purple cloth market thumbnail" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.className='w-full h-full bg-gradient-to-br from-purple-200 to-purple-400 flex items-center justify-center text-xs'; this.innerHTML='🏪'; this.onerror=null;">
+                            </button>
+                            
+                            <button onclick="showImage(2)" class="thumbnail-btn flex-shrink-0 w-20 h-16 rounded-xl overflow-hidden border-3 border-gray-300 shadow-lg transition-all duration-300 hover:scale-105">
+                                <img src="https://copilot.microsoft.com/th/id/BCO.3e7be8a5-88fa-4453-9844-4efd14f8ef66.png" 
+                                     alt="Hospitality scene thumbnail" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.className='w-full h-full bg-gradient-to-br from-yellow-200 to-orange-300 flex items-center justify-center text-xs'; this.innerHTML='🏠'; this.onerror=null;">
+                            </button>
+                            
+                            <button onclick="showImage(3)" class="thumbnail-btn flex-shrink-0 w-20 h-16 rounded-xl overflow-hidden border-3 border-gray-300 shadow-lg transition-all duration-300 hover:scale-105">
+                                <img src="https://s15-kling.klingai.com/kimg/EMXN1y8qbwoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpVc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjEvMGM2NGI3MWItM2I1OS00YmIxLWIxZmQtY2Y1ZjIwYjAyMzY2X2ltYWdlLnBuZw.origin?x-kcdn-pid=112372" 
+                                     alt="Ancient Thyatira city thumbnail" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.className='w-full h-full bg-gradient-to-br from-amber-200 to-orange-400 flex items-center justify-center text-xs'; this.innerHTML='🏛️'; this.onerror=null;">
+                            </button>
+                            
+                            <button onclick="showImage(4)" class="thumbnail-btn flex-shrink-0 w-20 h-16 rounded-xl overflow-hidden border-3 border-gray-300 shadow-lg transition-all duration-300 hover:scale-105">
+                                <img src="https://copilot.microsoft.com/th/id/BCO.82de0c88-0d35-4b8a-b379-15abff99544e.png" 
+                                     alt="Prayer and worship thumbnail" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.className='w-full h-full bg-gradient-to-br from-pink-200 to-rose-400 flex items-center justify-center text-xs'; this.innerHTML='🙏'; this.onerror=null;">
+                            </button>
+                            
+                            <button onclick="showImage(5)" class="thumbnail-btn flex-shrink-0 w-20 h-16 rounded-xl overflow-hidden border-3 border-gray-300 shadow-lg transition-all duration-300 hover:scale-105">
+                                <img src="https://s15-kling.klingai.com/kimg/EMXN1y8qcgoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpYc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjFfMmsvNjRkZThkMGQtY2RmZS00MGVlLWIyMmYtZjRhODE4NTY3M2Q1X2ltYWdlLnBuZw.origin?x-kcdn-pid=112372" 
+                                     alt="Early church gathering thumbnail" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.className='w-full h-full bg-gradient-to-br from-green-200 to-emerald-400 flex items-center justify-center text-xs'; this.innerHTML='⛪'; this.onerror=null;">
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Extended Biography Section -->
+                    <div class="mb-12 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-3xl p-8 border border-purple-100">
+                        <h3 class="serif-font text-2xl font-semibold text-gray-800 mb-6 text-center">My Complete Story</h3>
+                        
+                        <div class="space-y-6 text-gray-700">
+                            <div class="fade-in stagger-1">
+                                <h4 class="font-semibold text-lg text-purple-800 mb-3 flex items-center">
+                                    <span class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 text-sm">🏛️</span>
+                                    Life in Thyatira
+                                </h4>
+                                <p class="leading-relaxed pl-11">
+                                    I was born in Thyatira, a city famous for purple fabrics. My childhood was filled with colour — helping my parents dye cloth and delighting in every smile my 
+                                    service brought. When I came of age, I began trading the purple goods myself. Business thrived, yet a quiet longing stirred within me — a gentle nudge I now 
+                                    recognize as God leading me beyond the familiar to Philippi, Macedonia.
+                                </p>
+                            </div>
+
+                            <div class="fade-in stagger-1">
+                                <h4 class="font-semibold text-lg text-purple-800 mb-3 flex items-center">
+                                    <span class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 text-sm">💫</span>
+                                    The Divine Invitation
+                                </h4>
+                                <p class="leading-relaxed pl-11">
+                                    One day near the city gate, I met a woman praying by the river. Her name was Lucia, and she spoke passionately about her one 
+                                    true God, Yahweh. Intrigued, I joined her and other women for worship. Week after week, I learned to pray and live by faith. 
+                                    Still, something felt incomplete.
+                                </p>
+                            </div>
+                            
+                            <div class="fade-in stagger-2">
+                                <h4 class="font-semibold text-lg text-purple-800 mb-3 flex items-center">
+                                    <span class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 text-sm">🌊</span>
+                                    The Transformation
+                                </h4>
+                                
+                                <p class="leading-relaxed pl-11">
+                                    Then, on an ordinary Sabbath morning, Paul, Silas, and Timothy joined our gathering. When Paul spoke of Jesus — the Son of God who saves and restores — my heart opened. 
+                                    I believed, was baptized, and so was my household. Joy overflowed as we celebrated new life in Christ.
+                                </p>
+                            </div>
+                            
+                            <div class="fade-in stagger-3">
+                                <h4 class="font-semibold text-lg text-purple-800 mb-3 flex items-center">
+                                    <span class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 text-sm">💒</span>
+                                    Ministry and Mission
+                                </h4>
+                                <p class="leading-relaxed pl-11">
+                                    Eager to learn more, I invited the apostles to stay in my home. My house soon became a safe haven for teaching and 
+                                    fellowship — the first church in Macedonia. We served God through hospitality, generosity, and missionary support.
+                                </p>
+                            </div>
+                            
+                            <div class="fade-in stagger-4">
+                                <h4 class="font-semibold text-lg text-purple-800 mb-3 flex items-center">
+                                    <span class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3 text-sm">🤝</span>
+                                    The Letter That Changed Everything
+                                </h4>
+                                <p class="leading-relaxed pl-11">
+                                    Years later, we received Paul’s letter from prison, filled with gratitude and encouragement. 
+                                    As I listened, I realized that even the smallest act of service can advance God’s kingdom.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline -->
+                        <div class="mt-8 pt-8 border-t border-purple-200">
+                            <h4 class="serif-font text-xl font-semibold text-gray-800 mb-6 text-center">Biblical Timeline</h4>
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm">50</div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800">Conversion at Philippi</h5>
+                                        <p class="text-sm text-gray-600">First European convert to Christianity</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm">50+</div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800">House Church Established</h5>
+                                        <p class="text-sm text-gray-600">Home becomes center of Christian worship</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center text-white font-bold text-sm">60+</div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800">Continued Ministry</h5>
+                                        <p class="text-sm text-gray-600">Supporting missionaries and church growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recommended Books Section -->
+                    <div class="mb-12 bg-gradient-to-br from-amber-50 to-yellow-50 rounded-3xl p-8 border border-amber-100">
+                        <div class="text-center mb-8">
+                            <h3 class="serif-font text-2xl font-semibold text-gray-800 mb-2">Recommended Reading</h3>
+                            <div class="w-20 h-px bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mb-4"></div>
+                            <p class="text-gray-600 text-sm">Discover more about my story and biblical women of faith from these books I authored</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 gap-4">
+                            <a href="https://www.amazon.com/s?k=Lydia+of+Thyatira+biblical+women" target="_blank" rel="noopener noreferrer" 
+                               class="social-hover group flex items-start p-4 bg-white rounded-2xl border border-amber-200 hover:border-amber-300 shadow-sm">
+                                <div class="w-16 h-20 mr-3 flex-shrink-0 group-hover:scale-105 transition-transform duration-300 rounded-lg overflow-hidden shadow-md">
+                                    <img src="images/1.png" 
+                                         alt="True Worshipper of God Book cover" 
+                                         class="w-full h-full object-cover"
+                                         onerror="this.className='w-full h-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white text-lg'; this.innerHTML='📖'; this.onerror=null;">
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="font-semibold text-gray-800 text-base mb-1">True Worshipper Of God</h4>
+                                    <p class="text-xs text-gray-600 leading-relaxed mb-1">Explore how genuine worship goes beyond Sabbath services, but a daily response to God's grace </p>
+                                    <div class="text-amber-600 text-xs font-medium">Full Texts</div>
+                                </div>
+                            </a>
+
+                            <a href="https://www.amazon.com/s?k=Acts+16+Lydia+purple+seller" target="_blank" rel="noopener noreferrer"
+                               class="social-hover group flex items-start p-4 bg-white rounded-2xl border border-amber-200 hover:border-amber-300 shadow-sm">
+                                <div class="w-16 h-20 mr-3 flex-shrink-0 group-hover:scale-105 transition-transform duration-300 rounded-lg overflow-hidden shadow-md">
+                                    <img src="images/6.jpg" 
+                                         alt="Acts Commentary book cover" 
+                                         class="w-full h-full object-cover"
+                                         onerror="this.className='w-full h-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-lg'; this.innerHTML='⛪'; this.onerror=null;">
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="font-semibold text-gray-800 text-base mb-1">From Thyatira to Philippi</h4>
+                                    <p class="text-xs text-gray-600 leading-relaxed mb-1">The Journey of a Purple Heart</p>
+                                    <div class="text-blue-600 text-xs font-medium">Events Timeline</div>
+                                </div>
+                            </a>
+
+                            <a href="https://www.amazon.com/s?k=women+entrepreneurs+bible+business" target="_blank" rel="noopener noreferrer"
+                               class="social-hover group flex items-start p-4 bg-white rounded-2xl border border-amber-200 hover:border-amber-300 shadow-sm">
+                                <div class="w-16 h-20 mr-3 flex-shrink-0 group-hover:scale-105 transition-transform duration-300 rounded-lg overflow-hidden shadow-md">
+                                    <img src="images/2.png" 
+                                         alt="Leaderhip In Women book cover" 
+                                         class="w-full h-full object-cover"
+                                         onerror="this.className='w-full h-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center text-white text-lg'; this.innerHTML='💼'; this.onerror=null;">
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="font-semibold text-gray-800 text-base mb-1">Leadership In Women</h4>
+                                    <p class="text-xs text-gray-600 leading-relaxed mb-1">Transform potential into purposeful success</p>
+                                    <div class="text-green-600 text-xs font-medium">Strategic Leadership</div>
+                                </div>
+                            </a>
+
+                            <a href="https://www.amazon.com/s?k=hospitality+ministry+biblical+women+church" target="_blank" rel="noopener noreferrer"
+                               class="social-hover group flex items-start p-4 bg-white rounded-2xl border border-amber-200 hover:border-amber-300 shadow-sm">
+                                <div class="w-16 h-20 mr-3 flex-shrink-0 group-hover:scale-105 transition-transform duration-300 rounded-lg overflow-hidden shadow-md">
+                                    <img src="images/5.png" 
+                                         alt="The Business Idea In You book cover" 
+                                         class="w-full h-full object-cover"
+                                         onerror="this.className='w-full h-full bg-gradient-to-br from-rose-500 to-rose-600 flex items-center justify-center text-white text-lg'; this.innerHTML='🏠'; this.onerror=null;">
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <h4 class="font-semibold text-gray-800 text-base mb-1">The Business Idea In You</h4>
+                                    <p class="text-xs text-gray-600 leading-relaxed mb-1">Enlightenment on God-Given Power of Wealth Creation</p>
+                                    <div class="text-rose-600 text-xs font-medium">Faith & Business</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Elegant Contact Button -->
+                    <div class="mt-8 text-center">
+                        <button onclick="showContact()" class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                            <span class="mr-2">✨</span>
+                            <span>Learn More About My Ministry</span>
+                            <div class="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Luxury Contact Modal -->
+    <div id="contactModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-6 z-50 overflow-y-auto">
+        <div class="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl border border-white/20 relative overflow-hidden my-8 max-h-[90vh] overflow-y-auto">
+            <!-- Modal Header -->
+            <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-purple-500 via-yellow-400 to-purple-500"></div>
+            
+            <div class="text-center mb-6">
+                <div class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-purple-200 shadow-lg">
+                    <img src="images/Gold and Black Flat Illustrative Feminine Salon Line Art Logo.png" 
+                         alt="Lydia in the media logo" 
+                         class="w-full h-full object-cover"
+                         onerror="this.className='w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center'; this.innerHTML='<span class=\'text-2xl\'>🏛️</span>'; this.onerror=null;">
+                </div>
+                <h3 class="serif-font text-2xl font-bold text-gray-800 mb-2">Ministry Legacy</h3>
+                <div class="w-16 h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent mx-auto"></div>
+            </div>
+            
+            <!-- Ministry Achievements List -->
+            <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-6 border border-purple-200 mb-6">
+                <h4 class="font-semibold text-purple-800 mb-4 text-center">My Ministry Achievements</h4>
+                <ul class="space-y-3 text-gray-700">
+                    <li class="flex items-start">
+                        <span class="text-purple-600 mr-3 mt-1 text-sm">•</span>
+                        <span class="leading-relaxed">First European Convert to Christianity</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-purple-600 mr-3 mt-1 text-sm">•</span>
+                        <span class="leading-relaxed">Patron of Hospitality – Hosted Apostle Paul and fellow missionaries</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-purple-600 mr-3 mt-1 text-sm">•</span>
+                        <span class="leading-relaxed">First Real Estate Provider for the Philippi Church Headquarters</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-purple-600 mr-3 mt-1 text-sm">•</span>
+                        <span class="leading-relaxed">Initiator / Team Lead at MFP</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Ordination Lessons Header -->
+            <div class="mb-6">
+                <h4 class="serif-font text-lg font-semibold text-purple-800 text-center mb-4">Defining Attributes of My Ordination — Lessons I Have Learned</h4>
+                <div class="w-24 h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent mx-auto"></div>
+            </div>
+            
+            <div class="space-y-4 mb-8">
+                <p class="text-gray-700 leading-relaxed">
+                    <strong>O - Ordinarily Extra:</strong> I discovered that I, a seemingly ordinary woman, could become extra. I was created for more. The beauty of it all is that the 'more' - 
+                    the gifts, grace and potential -- was already within me, waiting to be stirred by God's hand.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed">
+                    <strong>R - Rare Kind:</strong> With the help of God, I came to understand that I am a unique vessel - chosen by Him not merely to serve, but to represent His excellence in both 
+                    ministry and life.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed">
+                    <strong>D - Dedicated:</strong> As my faith deepened, so did my commitment. I realized that God desires results, not just efforts, so I chose to serve him with increased passion, 
+                    discipline, and excellence.
+                </p>
+
+                <p class="text-gray-700 leading-relaxed">
+                    <strong>I - Intentional:</strong> Walking this path required me to be intentional - aligning my motives with my love for God. I devoted myself to advancing His kingdom through service, 
+                    leadership, and financial stewardship.
+                </p>
+                
+                <div class="bg-purple-50 rounded-xl p-4 border-l-4 border-purple-400">
+                    <p class="text-purple-800 italic text-sm">
+                        To learn more about my journey, visit my online bookshop for my published works.
+                    </p>
+                </div>
+            </div>
+            
+            <button onclick="hideContact()" class="w-full bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-semibold py-3 px-6 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <span class="mr-2">🙏</span>
+                Blessings & Peace
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Gallery data with your custom images
+        const galleryImages = [
+            {
+                url: "https://s15-kling.klingai.com/kimg/EMXN1y8qcgoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpYc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjFfMmsvZjFhOTk5OGEtY2U1MS00OTA1LTg5ZTUtZTdiZDI4NzdiN2RlX2ltYWdlLnBuZw.origin?x-kcdn-pid=112372",
+                icon: "🌊",
+                title: "Riverside Conversion",
+                description: "The sacred moment by the river in Philippi where the Lord opened my heart to Paul's message, marking the beginning of Christianity in Europe.",
+                gradient: "from-blue-200 to-blue-400"
+            },
+            {
+                url: "https://s15-kling.klingai.com/kimg/EMXN1y8qeQoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpfc2UvYWlfcG9ydGFsX3NncF9tbXVfaW1nMmltZ19haXdlYl92MTVfY2hhcmFjdGVyLzA5MDYzZWVkLTU1YjQtNDNkOS1iNTViLThlMWE1Njc3MGUxM19pbWFnZS5wbmc.origin?x-kcdn-pid=112372",
+                icon: "🏪",
+                title: "Purple Cloth Trade",
+                description: "My thriving business in Thyatira, dealing in luxury purple fabrics reserved for royalty and the wealthy across the Roman Empire.",
+                gradient: "from-purple-200 to-purple-400"
+            },
+            {
+                url: "https://copilot.microsoft.com/th/id/BCO.3e7be8a5-88fa-4453-9844-4efd14f8ef66.png",
+                icon: "🏠",
+                title: "Ministry of Hospitality",
+                description: "My home became a sanctuary for believers, where Paul and his companions found refuge and the first European house church was established.",
+                gradient: "from-yellow-200 to-orange-300"
+            },
+            {
+                url: "https://s15-kling.klingai.com/kimg/EMXN1y8qbwoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpVc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjEvMGM2NGI3MWItM2I1OS00YmIxLWIxZmQtY2Y1ZjIwYjAyMzY2X2ltYWdlLnBuZw.origin?x-kcdn-pid=112372",
+                icon: "🏛️",
+                title: "Ancient Thyatira",
+                description: "The bustling city of my birth, renowned for its trade guilds and purple dye industry, where I learned the skills of commerce and business.",
+                gradient: "from-amber-200 to-orange-400"
+            },
+            {
+                url: "https://copilot.microsoft.com/th/id/BCO.82de0c88-0d35-4b8a-b379-15abff99544e.png",
+                icon: "🙏",
+                title: "Prayer & Worship",
+                description: "As a God-fearer, I regularly joined other women for prayer by the riverside, seeking the Lord with a sincere heart before my conversion.",
+                gradient: "from-pink-200 to-rose-400"
+            },
+            {
+                url: "https://s15-kling.klingai.com/kimg/EMXN1y8qcgoGdXBsb2FkEg55bGFiLXN0dW50LXNncBpYc2UvYWlfcG9ydGFsX3NncF9tbXVfdHh0MmltZ19haXdlYl92MjFfMmsvNjRkZThkMGQtY2RmZS00MGVlLWIyMmYtZjRhODE4NTY3M2Q1X2ltYWdlLnBuZw.origin?x-kcdn-pid=112372",
+                icon: "⛪",
+                title: "Early Church Gathering",
+                description: "The growing community of believers who gathered in my home, sharing fellowship, breaking bread, and spreading the Gospel throughout Macedonia.",
+                gradient: "from-green-200 to-emerald-400"
+            }
+        ];
+
+        let currentImageIndex = 0;
+
+        function showImage(index) {
+            currentImageIndex = index;
+            const image = galleryImages[index];
+            
+            // Update main image
+            const currentImg = document.getElementById('currentImage');
+            const imageTitle = document.getElementById('imageTitle');
+            const imageDescription = document.getElementById('imageDescription');
+            const imageCounter = document.getElementById('imageCounter');
+            
+            // Fade out effect
+            currentImg.style.opacity = '0';
+            
+            setTimeout(() => {
+                // Update with actual image or fallback to gradient
+                if (image.url) {
+                    currentImg.className = 'w-full h-full object-cover transition-all duration-500';
+                    currentImg.src = image.url;
+                    currentImg.alt = image.title;
+                    currentImg.onerror = function() {
+                        this.className = `w-full h-full bg-gradient-to-br ${image.gradient} flex items-center justify-center transition-all duration-500`;
+                        this.innerHTML = `<span class="text-6xl">${image.icon}</span>`;
+                        this.onerror = null;
+                    };
+                } else {
+                    currentImg.className = `w-full h-full bg-gradient-to-br ${image.gradient} flex items-center justify-center transition-all duration-500`;
+                    currentImg.innerHTML = `<span class="text-6xl">${image.icon}</span>`;
+                }
+                
+                imageTitle.textContent = image.title;
+                imageDescription.textContent = image.description;
+                imageCounter.textContent = `${index + 1} / ${galleryImages.length}`;
+                
+                // Fade in effect
+                currentImg.style.opacity = '1';
+            }, 250);
+            
+            // Update thumbnail borders
+            const thumbnails = document.querySelectorAll('.thumbnail-btn');
+            thumbnails.forEach((thumb, i) => {
+                if (i === index) {
+                    thumb.classList.remove('border-gray-300');
+                    thumb.classList.add('border-purple-400', 'active');
+                } else {
+                    thumb.classList.remove('border-purple-400', 'active');
+                    thumb.classList.add('border-gray-300');
+                }
+            });
+        }
+
+        function nextImage() {
+            const nextIndex = (currentImageIndex + 1) % galleryImages.length;
+            showImage(nextIndex);
+        }
+
+        function previousImage() {
+            const prevIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+            showImage(prevIndex);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') {
+                nextImage();
+            } else if (e.key === 'ArrowLeft') {
+                previousImage();
+            }
+        });
+
+        // Auto-advance gallery (optional)
+        let autoAdvanceInterval;
+        
+        function startAutoAdvance() {
+            autoAdvanceInterval = setInterval(nextImage, 5000); // Change image every 5 seconds
+        }
+        
+        function stopAutoAdvance() {
+            clearInterval(autoAdvanceInterval);
+        }
+        
+        // Start auto-advance when page loads, stop when user interacts
+        document.addEventListener('DOMContentLoaded', function() {
+            startAutoAdvance();
+            
+            // Stop auto-advance when user clicks on gallery
+            document.getElementById('galleryMainImage').addEventListener('click', stopAutoAdvance);
+            document.querySelectorAll('.thumbnail-btn').forEach(btn => {
+                btn.addEventListener('click', stopAutoAdvance);
+            });
+        });
+
+        function showContact() {
+            document.getElementById('contactModal').classList.remove('hidden');
+        }
+
+        function hideContact() {
+            document.getElementById('contactModal').classList.add('hidden');
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('contactModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                hideContact();
+            }
+        });
+
+        // Parallax scroll effect for floating elements
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.parallax-scroll');
+            
+            parallaxElements.forEach(function(element, index) {
+                const speed = 0.5 + (index * 0.1);
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach(function(element) {
+                observer.observe(element);
+            });
+        });
+
+        // Image gallery hover effects
+        document.addEventListener('DOMContentLoaded', function() {
+            const galleryImages = document.querySelectorAll('.grid img');
+            
+            galleryImages.forEach(function(img) {
+                img.addEventListener('mouseenter', function() {
+                    this.style.filter = 'brightness(1.1) contrast(1.1)';
+                });
+                
+                img.addEventListener('mouseleave', function() {
+                    this.style.filter = 'brightness(1) contrast(1)';
+                });
+            });
+        });
+
+        // Smooth scroll for internal navigation
+        function smoothScrollTo(elementId) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
+        // Add sparkle effect on button hover
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('button, .social-hover');
+            
+            buttons.forEach(function(button) {
+                button.addEventListener('mouseenter', function() {
+                    createSparkle(this);
+                });
+            });
+        });
+
+        function createSparkle(element) {
+            const sparkle = document.createElement('div');
+            sparkle.innerHTML = '✨';
+            sparkle.style.position = 'absolute';
+            sparkle.style.pointerEvents = 'none';
+            sparkle.style.fontSize = '12px';
+            sparkle.style.opacity = '0';
+            sparkle.style.animation = 'sparkleFloat 1s ease-out forwards';
+            
+            const rect = element.getBoundingClientRect();
+            sparkle.style.left = (rect.left + Math.random() * rect.width) + 'px';
+            sparkle.style.top = (rect.top + Math.random() * rect.height) + 'px';
+            
+            document.body.appendChild(sparkle);
+            
+            setTimeout(() => {
+                sparkle.remove();
+            }, 1000);
+        }
+
+        // Add sparkle animation to CSS
+        const sparkleStyle = document.createElement('style');
+        sparkleStyle.textContent = `
+            @keyframes sparkleFloat {
+                0% {
+                    opacity: 0;
+                    transform: translateY(0) scale(0);
+                }
+                50% {
+                    opacity: 1;
+                    transform: translateY(-20px) scale(1);
+                }
+                100% {
+                    opacity: 0;
+                    transform: translateY(-40px) scale(0);
+                }
+            }
+        `;
+        document.head.appendChild(sparkleStyle);
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98ef7fe0d7e7d06b',t:'MTc2MDUzMzIyNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
